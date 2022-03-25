@@ -3,6 +3,7 @@ using namespace std;
 
 int main()
 {
+    // enter days to see the years,weeks and days
 
     int input, years, weeks, days;
     cin >> input;
