@@ -12,8 +12,8 @@ int main()
     minutes = (input % 365) / 7;
     seconds = (input % 365) % 7;
 
-    cout << hours << endl
-         << minutes << endl
-         << seconds;
+    cout << hours << " hours" << endl
+         << minutes << " minutes" << endl
+         << seconds << " seconds";
     return 0;
 }

@@ -11,9 +11,9 @@ int main()
     weeks = (input % 365) / 7;
     days = (input % 365) % 7;
 
-    cout << years << endl
-         << weeks << endl
-         << days;
+    cout << years << " years" << endl
+         << weeks << " weeks" << endl
+         << days << " days";
 
     return 0;
 }
